@@ -14,7 +14,24 @@
       "openFiles": [
         "src/App.js"
       ]
-    }
+    },
+    "vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"rodrigovallades.es7-react-js-snippets",
+				"BracketPairColorDLW.bracket-pair-color-dlw",
+				"PKief.material-icon-theme",
+				"sdras.night-owl",
+				"esbenp.prettier-vscode"
+			],
+			
+			"settings": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"editor.formatOnSave": true,
+				"workbench.iconTheme": "material-icon-theme",
+				"workbench.colorTheme": "Night Owl"
+			}
+		}
   },
   "portsAttributes": {
     "3000": {
