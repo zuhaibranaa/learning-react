@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/button.css";
 
-function Button({ click, text, children }) {
+function Button({ click, children }) {
   return <button onClick={click}>{children}</button>;
 }
 
